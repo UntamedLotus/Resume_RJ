@@ -1,0 +1,51 @@
+$primary-first: #fae2af;
+$light-peach: #fef6e7;
+
+$primary-second: #a81d57;
+$maroon-pink: #76143d;
+
+.hero {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 2rem;
+  background-color: $light-peach;
+  text-align: left;
+  gap: 2rem;
+}
+
+.about {
+  margin-left: 3rem;
+  padding: 2rem;
+  align-self: center;
+
+  h2 {
+    // color: $maroon-pink;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    letter-spacing: 1.5px;
+    -webkit-text-fill-color: $light-peach;
+    -webkit-text-stroke: 3px $maroon-pink;
+    margin-bottom: 1rem;
+  }
+}
+
+.role {
+  color: $maroon-pink;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-decoration: underline;
+  margin-bottom: 4rem;
+}
+
+.information {
+  color: #76143d;
+}
+
+.about-img {
+  .img {
+    width: 29rem;
+    height: 37rem;
+    margin-left: 6rem;
+  }
+}

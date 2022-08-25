@@ -1,9 +1,10 @@
 import "./App.scss";
+import Hero from "./components/Hero/hero";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">HELLO_WORLD</header>
+      <Hero />
     </div>
   );
 }
