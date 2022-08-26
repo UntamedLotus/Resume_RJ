@@ -1,5 +1,12 @@
 import React from "react";
-import { FaHtml5, FaCss3Alt, FaReact, FaSass, FaGithub } from "react-icons/fa";
+import {
+  FaHtml5,
+  FaCss3Alt,
+  FaReact,
+  FaSass,
+  FaGithub,
+  FaGitAlt,
+} from "react-icons/fa";
 import { SiRedux, SiJavascript } from "react-icons/si";
 
 import { IoLogoFirebase } from "react-icons/io5";
@@ -10,7 +17,7 @@ import "./skills.scss";
 function Skills() {
   return (
     <div className="skills">
-      <h2>Skills</h2>
+      <h2>Skills & Certifications</h2>
       <div className="skills-section">
         <div className="technology">
           <p>Technologies</p>
@@ -46,7 +53,7 @@ function Skills() {
           <p>Other</p>
           <ul>
             <li>
-              <GoLogoGithub color="#222" />
+              <FaGitAlt color="#222" />
             </li>
             <li>
               <FaGithub color="#222" />
@@ -55,6 +62,28 @@ function Skills() {
               <IoLogoFirebase color="orange" />
             </li>
           </ul>
+        </div>
+      </div>
+      <div className="certificate-card">
+        <div className="certificate">
+          <img
+            className="rwd"
+            src="https://i.postimg.cc/4y3gcj1h/Screenshot-8.png"
+          />
+        </div>
+
+        <div className="certificate">
+          <img
+            className="jlds"
+            src="https://i.postimg.cc/856y04Pn/Screenshot-23.png"
+          />
+        </div>
+
+        <div className="certificate">
+          <img
+            className="js"
+            src="https://i.postimg.cc/xjskZ2hh/Java-Script-Certificate.jpg"
+          />
         </div>
       </div>
     </div>

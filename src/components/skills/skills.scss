@@ -1,10 +1,13 @@
 .skills {
   margin: 0 auto;
-  margin-top: 7rem;
+  margin-top: 5rem;
+  color: #76143d;
+  padding: 3rem;
 
   h2 {
     text-transform: uppercase;
     font-size: 2.5rem;
+    margin-bottom: 7rem;
   }
 }
 
@@ -17,8 +20,9 @@
 
 .technology {
   p {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     text-transform: uppercase;
+    text-decoration: underline;
   }
 
   ul {
@@ -26,6 +30,7 @@
     align-items: center;
     justify-content: center;
     column-gap: 1.2rem;
+    margin-right: 2.1rem;
   }
 
   li {
@@ -36,8 +41,9 @@
 
 .framework {
   p {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     text-transform: uppercase;
+    text-decoration: underline;
   }
 
   ul {
@@ -45,6 +51,7 @@
     align-items: center;
     justify-content: center;
     column-gap: 1.2rem;
+    margin-right: 1.5rem;
   }
 
   li {
@@ -59,8 +66,9 @@
 
 .other {
   p {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     text-transform: uppercase;
+    text-decoration: underline;
   }
 
   ul {
@@ -68,10 +76,30 @@
     align-items: center;
     justify-content: center;
     column-gap: 1.2rem;
+    margin-right: 1.2rem;
   }
 
   li {
     list-style: none;
     font-size: 3rem;
   }
+}
+
+.certificate-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 1rem;
+  margin-top: 4rem;
+}
+
+.certificate {
+  border: 1px solid #76143d;
+}
+
+.rwd,
+.jlds,
+.js {
+  height: 15rem;
+  width: 22rem;
 }

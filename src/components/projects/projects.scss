@@ -1,0 +1,20 @@
+.project-card {
+  margin: auto 2rem;
+  padding: 3rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.project {
+  border: 1px solid #76143d;
+  padding: 0.3rem;
+}
+
+.app-img {
+  height: 15rem;
+  width: 22rem;
+}
