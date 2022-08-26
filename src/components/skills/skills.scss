@@ -1,0 +1,77 @@
+.skills {
+  margin: 0 auto;
+  margin-top: 7rem;
+
+  h2 {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+  }
+}
+
+.skills-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-content: center;
+}
+
+.technology {
+  p {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+  }
+
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1.2rem;
+  }
+
+  li {
+    list-style: none;
+    font-size: 3rem;
+  }
+}
+
+.framework {
+  p {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+  }
+
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1.2rem;
+  }
+
+  li {
+    list-style: none;
+    font-size: 3rem;
+  }
+}
+
+.javascript {
+  background-color: #000;
+}
+
+.other {
+  p {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+  }
+
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1.2rem;
+  }
+
+  li {
+    list-style: none;
+    font-size: 3rem;
+  }
+}
