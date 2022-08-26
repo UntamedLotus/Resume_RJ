@@ -21,7 +21,7 @@ $maroon-pink: #76143d;
   h2 {
     // color: $maroon-pink;
     text-transform: uppercase;
-    font-size: 2.5rem;
+    font-size: 3rem;
     letter-spacing: 1.5px;
     -webkit-text-fill-color: $light-peach;
     -webkit-text-stroke: 3px $maroon-pink;
@@ -32,14 +32,15 @@ $maroon-pink: #76143d;
 .role {
   color: $maroon-pink;
   text-transform: uppercase;
-  font-size: 1.2rem;
-  font-weight: 600;
+  font-size: 1.5rem;
+  font-weight: 700;
   text-decoration: underline;
   margin-bottom: 4rem;
 }
 
 .information {
   color: #76143d;
+  font-weight: 500;
 }
 
 .about-img {
