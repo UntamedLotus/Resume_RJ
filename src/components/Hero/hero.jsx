@@ -1,16 +1,9 @@
 import React from "react";
 import "./hero.scss";
-// import { HashLink as Link } from "react-router-hash-link";
 
 function Hero() {
   return (
-    <div className="hero-section">
-      {/* <div className="nav">
-        <div className="nav-logo">
-          <h2> Ruttika</h2>
-        </div>
-        <div className="nav-links"></div>
-      </div> */}
+    <div className="hero-section" id="Hero">
       <div className="about">
         <h2>Jadhav Ruttika</h2>
         <p className="role">Front-end Developer</p>

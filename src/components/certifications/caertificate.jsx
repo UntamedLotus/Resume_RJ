@@ -3,7 +3,7 @@ import "./certificate.scss";
 
 function Certificate() {
   return (
-    <div className="certificate-section">
+    <div className="certificate-section" id="Certification">
       <h2>Certifications</h2>
       <div className="certificate-card">
         <div className="certificate">

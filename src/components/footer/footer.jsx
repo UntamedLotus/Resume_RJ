@@ -2,7 +2,7 @@ import "./footer.scss";
 
 function Contact() {
   return (
-    <div className="contact">
+    <div className="contact" id="Footer">
       <div className="container">
         <div className="contact-container">
           <h4>Contact - </h4>

@@ -19,18 +19,17 @@ $maroon-pink: #76143d;
   align-self: center;
 
   h2 {
-    // color: $maroon-pink;
     text-transform: uppercase;
     font-size: 3rem;
     letter-spacing: 1.5px;
     -webkit-text-fill-color: $light-peach;
-    -webkit-text-stroke: 3px $maroon-pink;
+    -webkit-text-stroke: 3px #55524e;
     margin-bottom: 1rem;
   }
 }
 
 .role {
-  color: $maroon-pink;
+  color: #55524e;
   text-transform: uppercase;
   font-size: 1.5rem;
   font-weight: 700;

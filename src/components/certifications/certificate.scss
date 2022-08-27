@@ -1,11 +1,11 @@
 .certificate-section {
   margin: auto 3rem;
   margin-bottom: 7rem;
-  border: 1px solid #76143d;
+  border: 1px solid #55524e;
   padding: 2rem;
   h2 {
     font-size: 2rem;
-    color: #76143d;
+    color: #55524e;
     margin: 0 auto;
     padding-bottom: 1.5rem;
   }
@@ -19,7 +19,7 @@
 }
 
 .certificate {
-  border: 1px solid #76143d;
+  border: 1px solid #3d3b38;
 }
 
 .rwd,
@@ -33,11 +33,11 @@ button {
   width: 90%;
   padding: 0.5rem;
   margin: 0.5rem;
-  border: 1px solid #76143d;
-  background-color: #651134;
+  border: 1px solid #3d3b38;
+  background-color: #333;
 
   &:hover {
-    background-color: #971a4e;
+    background-color: #555;
   }
 
   a {

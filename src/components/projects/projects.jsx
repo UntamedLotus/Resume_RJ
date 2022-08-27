@@ -2,7 +2,7 @@ import "./projects.scss";
 
 function Project() {
   return (
-    <div className="project-section">
+    <div className="project-section " id="Portfolio">
       <h2>Portfolio</h2>
       <div className="project-card">
         <div className="project">

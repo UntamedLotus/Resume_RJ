@@ -1,0 +1,36 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 3rem;
+  padding-left: 3rem;
+  top: 0%;
+
+  background-color: #fef6e7;
+
+  .nav-links {
+    display: flex;
+    column-gap: 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .nav-link {
+    color: #55524e;
+    text-decoration: none;
+    padding: 0.5rem;
+
+    &:hover {
+      //   text-decoration: underline;
+      background-color: #55524e;
+      color: #fef6e7;
+      padding: 0.5rem;
+      border-radius: 4px;
+    }
+  }
+}
+
+.nav-logo {
+  color: #55524e;
+}
