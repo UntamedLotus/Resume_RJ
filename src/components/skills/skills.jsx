@@ -15,7 +15,7 @@ import "./skills.scss";
 function Skill() {
   return (
     <div className="skills-section">
-      <h2>Skills</h2>
+      <h2>I'm familiar with...</h2>
       <div className="skills">
         <div className="technology">
           <p>Technologies</p>

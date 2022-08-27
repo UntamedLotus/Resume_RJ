@@ -3,7 +3,7 @@ import "./projects.scss";
 function Project() {
   return (
     <div className="project-section">
-      <h2>Projects</h2>
+      <h2>Portfolio</h2>
       <div className="project-card">
         <div className="project">
           <a
