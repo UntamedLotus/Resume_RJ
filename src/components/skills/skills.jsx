@@ -8,17 +8,15 @@ import {
   FaGitAlt,
 } from "react-icons/fa";
 import { SiRedux, SiJavascript } from "react-icons/si";
-
 import { IoLogoFirebase } from "react-icons/io5";
-import { GoLogoGithub } from "react-icons/go";
 
 import "./skills.scss";
 
-function Skills() {
+function Skill() {
   return (
-    <div className="skills">
-      <h2>Skills & Certifications</h2>
-      <div className="skills-section">
+    <div className="skills-section">
+      <h2>Skills</h2>
+      <div className="skills">
         <div className="technology">
           <p>Technologies</p>
           <ul>
@@ -64,30 +62,8 @@ function Skills() {
           </ul>
         </div>
       </div>
-      <div className="certificate-card">
-        <div className="certificate">
-          <img
-            className="rwd"
-            src="https://i.postimg.cc/4y3gcj1h/Screenshot-8.png"
-          />
-        </div>
-
-        <div className="certificate">
-          <img
-            className="jlds"
-            src="https://i.postimg.cc/856y04Pn/Screenshot-23.png"
-          />
-        </div>
-
-        <div className="certificate">
-          <img
-            className="js"
-            src="https://i.postimg.cc/xjskZ2hh/Java-Script-Certificate.jpg"
-          />
-        </div>
-      </div>
     </div>
   );
 }
 
-export default Skills;
+export default Skill;

@@ -4,7 +4,7 @@ import "./hero.scss";
 
 function Hero() {
   return (
-    <div className="hero">
+    <div className="hero-section">
       {/* <div className="nav">
         <div className="nav-logo">
           <h2> Ruttika</h2>
