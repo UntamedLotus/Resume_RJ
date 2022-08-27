@@ -1,4 +1,8 @@
+$light-peach: #fef6e7;
+
 .project-section {
+  background-color: $light-peach;
+  padding-top: 0.5rem;
   h2 {
     text-transform: uppercase;
     font-size: 2.5rem;
@@ -9,16 +13,17 @@
 .project-card {
   margin: auto 2rem;
   padding: 3rem;
+  padding-top: 0.5rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 
   align-items: center;
   justify-content: center;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 .project {
-  border: 1px solid #76143d;
+  border: 1.5px solid #aa5277;
   padding: 0.3rem;
 }
 

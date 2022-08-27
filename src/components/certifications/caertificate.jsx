@@ -10,6 +10,7 @@ function Certificate() {
           <img
             className="rwd"
             src="https://i.postimg.cc/4y3gcj1h/Screenshot-8.png"
+            alt="Responsive Web Design certificate by freeCodeCamp"
           />
         </div>
 
@@ -17,6 +18,7 @@ function Certificate() {
           <img
             className="jlds"
             src="https://i.postimg.cc/856y04Pn/Screenshot-23.png"
+            alt="JavaScript Algorithm and Data Structure Certificate by freeCodeCamp"
           />
         </div>
 
@@ -24,6 +26,7 @@ function Certificate() {
           <img
             className="js"
             src="https://i.postimg.cc/xjskZ2hh/Java-Script-Certificate.jpg"
+            alt="React certification by Udemy"
           />
         </div>
       </div>
