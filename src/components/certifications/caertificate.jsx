@@ -12,15 +12,14 @@ function Certificate() {
             src="https://i.postimg.cc/4y3gcj1h/Screenshot-8.png"
             alt="Responsive Web Design certificate by freeCodeCamp"
           />
-          <button className="btn">
-            <a
-              href="https://freecodecamp.org/certification/fcc862c562a-2710-4913-af49-effc0e2b508a/responsive-web-design"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Authenticate
-            </a>
-          </button>
+
+          <a
+            href="https://freecodecamp.org/certification/fcc862c562a-2710-4913-af49-effc0e2b508a/responsive-web-design"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="btn"> Authenticate</button>
+          </a>
         </div>
 
         <div className="certificate">
@@ -30,32 +29,29 @@ function Certificate() {
             alt="JavaScript Algorithm and Data Structure Certificate by freeCodeCamp"
           />
 
-          <button className="btn">
-            <a
-              href="https://freecodecamp.org/certification/fcc862c562a-2710-4913-af49-effc0e2b508a/javascript-algorithms-and-data-structures"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Authenticate
-            </a>
-          </button>
+          <a
+            href="https://freecodecamp.org/certification/fcc862c562a-2710-4913-af49-effc0e2b508a/javascript-algorithms-and-data-structures"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="btn"> Authenticate</button>
+          </a>
         </div>
 
         <div className="certificate">
           <img
             className="js"
-            src="https://i.postimg.cc/xjskZ2hh/Java-Script-Certificate.jpg"
+            src="https://i.postimg.cc/SKprSwZm/React-Certificate.jpg"
             alt="React certification by Udemy"
           />
-          <button className="btn">
-            <a
-              href="https://freecodecamp.org/certification/fcc862c562a-2710-4913-af49-effc0e2b508a/responsive-web-design"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Authenticate
-            </a>
-          </button>
+
+          <a
+            href="https://ude.my/UC-075f6452-b2cd-4351-a144-bf3d6448bec5"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="btn"> Authenticate</button>
+          </a>
         </div>
       </div>
     </div>

@@ -8,10 +8,15 @@ function Hero() {
         <h2>Jadhav Ruttika</h2>
         <p className="role">Front-end Developer</p>
         <p className="information">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita,
-          dolorum voluptates ab aperiam soluta culpa voluptatum. Repellendus aut
-          modi saepe culpa similique nesciunt error fuga perspiciatis vero?
-          Eius, fuga iure.
+          I hold degree as Botany major but had a particular interest in
+          development. I'm a self-taught React frontend developer. I'm
+          practicing & learning front-end techniques since October 2021.{" "}
+          <p>
+            Being an sketch artist I particularly focus on developing good UI
+            and user friendly apps. One of the important reason I love
+            programming that it particularly gives me chance to explore new
+            things and enhance my artistic side.
+          </p>
         </p>
       </div>
       <div className="about-img">

@@ -29,24 +29,21 @@
   width: 22rem;
 }
 
+a {
+  text-decoration: none;
+}
+
 button {
   width: 90%;
   padding: 0.5rem;
   margin: 0.5rem;
   border: 1px solid #3d3b38;
   background-color: #333;
+  color: #fef6e7;
+  font-size: 1rem;
 
   &:hover {
-    background-color: #555;
-  }
-
-  a {
-    text-decoration: none;
-    color: #fef6e7;
-    font-size: 1rem;
-
-    &:hover {
-      text-decoration: underline;
-    }
+    background-color: #222;
+    text-decoration: underline;
   }
 }

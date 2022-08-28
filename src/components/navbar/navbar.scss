@@ -4,7 +4,8 @@
   justify-content: space-between;
   padding-right: 3rem;
   padding-left: 3rem;
-  top: 0%;
+  top: 0;
+  position: sticky;
 
   background-color: #fef6e7;
 
@@ -22,7 +23,6 @@
     padding: 0.5rem;
 
     &:hover {
-      //   text-decoration: underline;
       background-color: #55524e;
       color: #fef6e7;
       padding: 0.5rem;
